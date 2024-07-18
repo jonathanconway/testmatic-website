@@ -9,3 +9,16 @@
   height: 200px;
   width: 200px;
 }
+
+.features ul {
+  list-style: none;
+}
+
+.features li {
+  margin-top: 0.5rem;
+}
+
+.features li:not(:last-child):after {
+  content: "–";
+  display: block;
+}

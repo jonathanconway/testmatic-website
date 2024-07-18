@@ -4,32 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Understand',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Rapidly create and organise your test cases',
+    Svg: require('@site/static/img/create_organise.svg').default,
     description: (
-      <>
-        Write your tests as a simple set of ordered steps, reducing the learning curve and complexity
-      </>
+      <ul>
+        <li>Quickly and easily write test cases as a simple set of ordered steps.</li>
+        <li>Human-readable by engineers and business people alike.</li>
+        <li>Fully exportable to Markdown.</li>
+      </ul>
     ),
   },
   {
-    title: 'Focus on User Experience',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Catch bugs and regressions early',
+    Svg: require('@site/static/img/catch_bugs.svg').default,
     description: (
-      <>
-        Focus on behaviour from a user's perspective,
-        producing an optimal user experience
-      </>
+      <ul>
+        <li>Don't wait until your tests are automated – start catching and fixing bugs now! </li>
+        <li>Find related test cases by impact search to prevent regressions while rapidly rolling out new features.</li>
+      </ul>
     ),
   },
   {
-    title: 'Documentation Generator',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Understand your software flows',
+    Svg: require('@site/static/img/understand.svg').default,
     description: (
-      <>
-        Your tests are always organised and discoverable,
-        with a doc generator and token mechanism
-      </>
+      <ul>
+        <li>Keep your test cases organised, structured and repeatable.</li>
+        <li>Test in an organised, consistent, rigorous, systematic manner.</li>
+      </ul>
     ),
   },
 ];
