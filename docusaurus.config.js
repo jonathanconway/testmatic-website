@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://testmatic.surge.sh',
+  url: 'http://testmatic.conwy.co',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -72,7 +72,7 @@ const config = {
         items: [
           {to: '/docs/introduction', label: 'Docs', position: 'left'},
           
-          {href: 'https://testmatic.surge.sh', label: 'Try it now!', position: 'left'},
+          {href: 'https://conwy.co/testmaticui', label: 'Try it now!', position: 'left'},
 
           // {to: '/blog', label: 'Blog', position: 'left'},
           

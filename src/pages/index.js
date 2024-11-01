@@ -42,7 +42,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            href="https://testmatic.surge.sh"
+            href="https://conwy.co/testmaticui"
             target="_blank">
             Try it out now! 💻
           </Link>
